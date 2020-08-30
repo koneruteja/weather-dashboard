@@ -258,16 +258,16 @@ $(document).ready(function(){
   
     function displayingRecentSearches() {
         var recentSearches = getCitiesFromLocalStorage();
-        var threeCities = recentSearches.slice(0, 3)
+        var threeCities = recentSearches
         localStorage.getItem("recentSearches");
         var recentSearchDiv = $("#search-div");
   
         for (var i = 0; i < threeCities.length; i++) {
-          if (threeCities.length === 1 | threeCities.length === 2 | threeCities.length === 3) {
+          /*if (threeCities.length === 1 | threeCities.length === 2 | threeCities.length === 3 | threeCities.length === 4 | threeCities.length === 5) {*/
             var exampleCity = $("<button type=\"button\" class=\"btn btn-light\" value="+threeCities[i]+">")
             exampleCity.text(recentSearches[i]);
             recentSearchDiv.append(exampleCity);
-          }
+
           
         };
     };
