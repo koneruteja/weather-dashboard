@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: #101111;
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    padding-bottom: 20px;
+    margin-top:10px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.bd-sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+#button-addon2 {
+    background-color: rgb(101, 196,224);
+}
+
+a {
+    color: rgb(101, 196,224);
+}
+
+#row {
+    margin-left: -100px;    
+}
+
+.col-sm {
+    background-color: rgb(101, 196,224);
+    min-height: 200px;  
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+#recent-button {
+    border: 1px solid darkgray;
+    text-align: left;
+    margin: 0px 30px 0px 0px;
+    padding: 6px 150px 6px 6px;
+}
+
+#left-div {
+    min-height: 500px;
+}
+
+@media (max-width: 1288px) {
+    .forecast {
+        max-width: 185px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .forecast {
+        max-width: 500px;
+        padding: 5px;
+    }
+}

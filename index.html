@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        Weather Dashboard
+    </header>
+    <div class="container">
+        <div class="row flex-xl" id="row">
+            <div class="col-12 col-md-3 col-xl-3 bd-sidebar" id="left-div">
+            
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <h5>Search for a city:</h5>
+                </li>
+            </ul>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="city-input"  aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-primary" type="button" id="button-addon2">Search</button>
+                </div>
+            </div>
+            <h5 id="search-h3">Recent Searches</h5>
+                <div class="btn-group-vertical" role="group" aria-label="Basic example" id="search-div">
+                </div>
+            </div>
+
+            <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" id="main-div">
+                <div class="city-div">
+                </div>
+                <div>
+                    <div class="row">
+                        <h5>
+                            5 Day Forecast:
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm forecasted" id="day-one">
+                        </div>
+                        <div class="col-sm forecasted" id="day-two">
+                        </div>
+                        <div class="col-sm forecasted" id="day-three">
+                        </div>
+                        <div class="col-sm forecasted" id="day-four">
+                        </div>
+                        <div class="col-sm forecasted" id="day-five">
+                        </div>
+                    </div>
+                </div>
+            </main>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
