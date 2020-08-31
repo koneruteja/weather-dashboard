@@ -110,12 +110,13 @@ $(document).ready(function(){
           url: indexURL,
           method: "GET"
         }).then(function(response) {
-          var UVIndex = response.value;
-  
-          // Creating an element to hold the humidity
-          var pIndex = $("<p>").text("UV Index: " + UVIndex);
+            
+          var UVIndex = response.value
+
+          // Creating an element to hold the UV
+          var pIndex = $("<p>").text("UV Index: " + UVIndex );
       
-          // Appending the humidity
+          // Appending the UV
           var cityDiv = $(".city-div");
           cityDiv.append(pIndex);  
   
@@ -267,7 +268,7 @@ $(document).ready(function(){
             var exampleCity = $("<button type=\"button\" class=\"btn btn-light\" value="+threeCities[i]+">")
             exampleCity.text(recentSearches[i]);
             recentSearchDiv.append(exampleCity);
-
+            
           
         };
     };

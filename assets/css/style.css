@@ -30,6 +30,18 @@ h5 {
     background-color: #007bff;
 }
 
+a {
+    color: #007bff;
+}
+
+#UVIndex {
+    color: white;
+    background-color: #dc3644;
+    padding: 5px 10px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+}
+
 #row {
     margin-left: -100px;    
 }
@@ -42,8 +54,17 @@ h5 {
     margin: 10px;
 }
 
-#left-div {
-    min-height: 500px;
+#recent-button {
+    border: 1px solid darkgray;
+    text-align: left;
+    margin: 0px 30px 0px 0px;
+    padding: 6px 150px 6px 6px;
+}
+
+.city-div {
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 0.25rem ;
 }
 
 @media (max-width: 1288px) {
